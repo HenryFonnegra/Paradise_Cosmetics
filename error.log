@@ -5310,3 +5310,187 @@
 [29-Oct-2021 03:23:15 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
 [29-Oct-2021 03:23:15 Europe/Berlin] View-> __construct : Inicio de la clase vista
 [29-Oct-2021 03:23:15 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[29-Oct-2021 03:28:57 Europe/Berlin] App-> __construct : Se inicio la app.
+[29-Oct-2021 03:28:57 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\paradise_cosmetics\core\app.php on line 14
+[29-Oct-2021 03:28:57 Europe/Berlin] Session->__construct : Sesión iniciada 
+[29-Oct-2021 03:28:57 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\paradise_cosmetics\classes\session.php on line 19
+[29-Oct-2021 03:28:57 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:28:57 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[29-Oct-2021 03:28:57 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[29-Oct-2021 03:28:57 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[29-Oct-2021 03:28:57 Europe/Berlin] Session->verifySession : La pagina  existe
+[29-Oct-2021 03:28:57 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[29-Oct-2021 03:28:57 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[29-Oct-2021 03:28:57 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[29-Oct-2021 03:28:57 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[29-Oct-2021 03:28:57 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[29-Oct-2021 03:28:58 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[29-Oct-2021 03:29:09 Europe/Berlin] App-> __construct : Se inicio la app.
+[29-Oct-2021 03:29:09 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\paradise_cosmetics\core\app.php on line 14
+[29-Oct-2021 03:29:09 Europe/Berlin] Session->__construct : Sesión iniciada 
+[29-Oct-2021 03:29:09 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\paradise_cosmetics\classes\session.php on line 19
+[29-Oct-2021 03:29:09 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:29:09 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[29-Oct-2021 03:29:09 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[29-Oct-2021 03:29:09 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[29-Oct-2021 03:29:09 Europe/Berlin] Session->verifySession : La pagina  existe
+[29-Oct-2021 03:29:09 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[29-Oct-2021 03:29:09 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[29-Oct-2021 03:29:09 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[29-Oct-2021 03:29:09 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[29-Oct-2021 03:29:09 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[29-Oct-2021 03:29:09 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[29-Oct-2021 03:29:12 Europe/Berlin] App-> __construct : Se inicio la app.
+[29-Oct-2021 03:29:12 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\paradise_cosmetics\core\app.php on line 14
+[29-Oct-2021 03:29:12 Europe/Berlin] Session->__construct : Sesión iniciada 
+[29-Oct-2021 03:29:12 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\paradise_cosmetics\classes\session.php on line 19
+[29-Oct-2021 03:29:12 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:29:12 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[29-Oct-2021 03:29:12 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[29-Oct-2021 03:29:12 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[29-Oct-2021 03:29:12 Europe/Berlin] Session->verifySession : La pagina  existe
+[29-Oct-2021 03:29:12 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[29-Oct-2021 03:29:12 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[29-Oct-2021 03:29:12 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[29-Oct-2021 03:29:12 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[29-Oct-2021 03:29:12 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[29-Oct-2021 03:29:12 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[29-Oct-2021 03:29:17 Europe/Berlin] App-> __construct : Se inicio la app.
+[29-Oct-2021 03:29:17 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\paradise_cosmetics\core\app.php on line 14
+[29-Oct-2021 03:29:17 Europe/Berlin] Session->__construct : Sesión iniciada 
+[29-Oct-2021 03:29:17 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\paradise_cosmetics\classes\session.php on line 19
+[29-Oct-2021 03:29:17 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:29:17 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[29-Oct-2021 03:29:17 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[29-Oct-2021 03:29:17 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[29-Oct-2021 03:29:17 Europe/Berlin] Session->verifySession : La pagina  existe
+[29-Oct-2021 03:29:17 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[29-Oct-2021 03:29:17 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[29-Oct-2021 03:29:17 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[29-Oct-2021 03:29:17 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[29-Oct-2021 03:29:17 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[29-Oct-2021 03:29:17 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[29-Oct-2021 03:29:59 Europe/Berlin] App-> __construct : Se inicio la app.
+[29-Oct-2021 03:29:59 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\paradise_cosmetics\core\app.php on line 14
+[29-Oct-2021 03:29:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[29-Oct-2021 03:29:59 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\paradise_cosmetics\classes\session.php on line 19
+[29-Oct-2021 03:29:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:29:59 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[29-Oct-2021 03:29:59 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[29-Oct-2021 03:29:59 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[29-Oct-2021 03:29:59 Europe/Berlin] Session->verifySession : La pagina  existe
+[29-Oct-2021 03:29:59 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[29-Oct-2021 03:29:59 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[29-Oct-2021 03:29:59 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[29-Oct-2021 03:29:59 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[29-Oct-2021 03:29:59 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[29-Oct-2021 03:29:59 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[29-Oct-2021 03:30:01 Europe/Berlin] App-> __construct : Se inicio la app.
+[29-Oct-2021 03:30:01 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\paradise_cosmetics\core\app.php on line 14
+[29-Oct-2021 03:30:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[29-Oct-2021 03:30:01 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\paradise_cosmetics\classes\session.php on line 19
+[29-Oct-2021 03:30:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:30:01 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[29-Oct-2021 03:30:01 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[29-Oct-2021 03:30:01 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[29-Oct-2021 03:30:01 Europe/Berlin] Session->verifySession : La pagina  existe
+[29-Oct-2021 03:30:01 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[29-Oct-2021 03:30:01 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[29-Oct-2021 03:30:01 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[29-Oct-2021 03:30:01 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[29-Oct-2021 03:30:01 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[29-Oct-2021 03:30:01 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[29-Oct-2021 03:30:39 Europe/Berlin] App-> __construct : Se inicio la app.
+[29-Oct-2021 03:30:39 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\paradise_cosmetics\core\app.php on line 14
+[29-Oct-2021 03:30:39 Europe/Berlin] Session->__construct : Sesión iniciada 
+[29-Oct-2021 03:30:39 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\paradise_cosmetics\classes\session.php on line 19
+[29-Oct-2021 03:30:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:30:39 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[29-Oct-2021 03:30:39 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[29-Oct-2021 03:30:39 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[29-Oct-2021 03:30:39 Europe/Berlin] Session->verifySession : La pagina  existe
+[29-Oct-2021 03:30:39 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[29-Oct-2021 03:30:39 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[29-Oct-2021 03:30:39 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[29-Oct-2021 03:30:39 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[29-Oct-2021 03:30:39 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[29-Oct-2021 03:30:39 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[29-Oct-2021 03:30:52 Europe/Berlin] App-> __construct : Se inicio la app.
+[29-Oct-2021 03:30:52 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\paradise_cosmetics\core\app.php on line 14
+[29-Oct-2021 03:30:52 Europe/Berlin] Session->__construct : Sesión iniciada 
+[29-Oct-2021 03:30:52 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\paradise_cosmetics\classes\session.php on line 19
+[29-Oct-2021 03:30:52 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:30:52 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[29-Oct-2021 03:30:52 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[29-Oct-2021 03:30:52 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[29-Oct-2021 03:30:52 Europe/Berlin] Session->verifySession : La pagina  existe
+[29-Oct-2021 03:30:52 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[29-Oct-2021 03:30:52 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[29-Oct-2021 03:30:52 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[29-Oct-2021 03:30:52 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[29-Oct-2021 03:30:52 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[29-Oct-2021 03:30:52 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[29-Oct-2021 03:31:40 Europe/Berlin] App-> __construct : Se inicio la app.
+[29-Oct-2021 03:31:40 Europe/Berlin] Session->__construct : Sesión iniciada 
+[29-Oct-2021 03:31:40 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\classes\session.php on line 19
+[29-Oct-2021 03:31:40 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:31:40 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[29-Oct-2021 03:31:40 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[29-Oct-2021 03:31:40 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[29-Oct-2021 03:31:40 Europe/Berlin] Session->verifySession : La pagina login existe
+[29-Oct-2021 03:31:40 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[29-Oct-2021 03:31:40 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[29-Oct-2021 03:31:40 Europe/Berlin] App-> __construct : Se encontró el controlador login y se está cargando.
+[29-Oct-2021 03:31:40 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[29-Oct-2021 03:31:40 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[29-Oct-2021 03:31:40 Europe/Berlin] App-> __construct : No se encontró el método  en login.
+[29-Oct-2021 03:31:40 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:31:40 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo loginModel
+[29-Oct-2021 03:31:40 Europe/Berlin] View-> render : Vista views/login/login.php cargada correctamente.
+[29-Oct-2021 03:31:50 Europe/Berlin] App-> __construct : Se inicio la app.
+[29-Oct-2021 03:31:50 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\public_html\core\app.php on line 14
+[29-Oct-2021 03:31:50 Europe/Berlin] Session->__construct : Sesión iniciada 
+[29-Oct-2021 03:31:50 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\classes\session.php on line 19
+[29-Oct-2021 03:31:50 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:31:50 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[29-Oct-2021 03:31:50 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[29-Oct-2021 03:31:50 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[29-Oct-2021 03:31:50 Europe/Berlin] Session->verifySession : La pagina  existe
+[29-Oct-2021 03:31:50 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[29-Oct-2021 03:31:50 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[29-Oct-2021 03:31:50 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[29-Oct-2021 03:31:50 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[29-Oct-2021 03:31:50 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[29-Oct-2021 03:31:50 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[29-Oct-2021 03:31:53 Europe/Berlin] App-> __construct : Se inicio la app.
+[29-Oct-2021 03:31:53 Europe/Berlin] Session->__construct : Sesión iniciada 
+[29-Oct-2021 03:31:53 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\classes\session.php on line 19
+[29-Oct-2021 03:31:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:31:53 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[29-Oct-2021 03:31:53 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[29-Oct-2021 03:31:53 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[29-Oct-2021 03:31:53 Europe/Berlin] Session->verifySession : La pagina login existe
+[29-Oct-2021 03:31:53 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[29-Oct-2021 03:31:53 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[29-Oct-2021 03:31:53 Europe/Berlin] App-> __construct : Se encontró el controlador login y se está cargando.
+[29-Oct-2021 03:31:53 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[29-Oct-2021 03:31:53 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[29-Oct-2021 03:31:53 Europe/Berlin] App-> __construct : No se encontró el método  en login.
+[29-Oct-2021 03:31:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:31:53 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo loginModel
+[29-Oct-2021 03:31:53 Europe/Berlin] View-> render : Vista views/login/login.php cargada correctamente.
+[29-Oct-2021 03:32:23 Europe/Berlin] App-> __construct : Se inicio la app.
+[29-Oct-2021 03:32:23 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\public_html\core\app.php on line 14
+[29-Oct-2021 03:32:23 Europe/Berlin] Session->__construct : Sesión iniciada 
+[29-Oct-2021 03:32:23 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\classes\session.php on line 19
+[29-Oct-2021 03:32:23 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[29-Oct-2021 03:32:23 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[29-Oct-2021 03:32:23 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[29-Oct-2021 03:32:23 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[29-Oct-2021 03:32:23 Europe/Berlin] Session->verifySession : La pagina  existe
+[29-Oct-2021 03:32:23 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[29-Oct-2021 03:32:23 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[29-Oct-2021 03:32:23 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[29-Oct-2021 03:32:23 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[29-Oct-2021 03:32:23 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[29-Oct-2021 03:32:23 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
