@@ -1,5 +1,3 @@
-
-<?php require_once 'core/view.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,17 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?=constant('URL')?>plugins/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="<?=constant('URL')?>plugins/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="<?=constant('URL')?>plugins/css/swiper.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="<?=constant('URL')?>plugins/style.css">
-    <script src="<?=constant('URL')?>plugins/js/custom.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/custom.js"></script>
 </head>
 <body>
 <header class="site-header">
@@ -30,7 +28,7 @@
                 <div class="col-10 col-lg-2 order-lg-1">
                     <div class="site-branding">
                         <div class="site-title">
-                            <img src="<?=constant('URL')?>plugins/images/logo 1.png" alt="logo">   
+                            <img src="images/logo 1.png" alt="logo">   
                         </div><!-- .site-title -->
                     </div><!-- .site-branding -->
                 </div><!-- .col -->
@@ -56,8 +54,8 @@
 
                 <div class="col-2 d-none d-lg-block order-2 order-lg-3">
                     <div style="position: relative;" class="buy-tickets">
-                        <a style="float: left; margin: 10px;" class="btn dark-purple" href="<?=constant('URL')?>login">Iniciar Sesion</a>
-                        <a style="float: left; position: absolute; margin-top: 10px;" href="<?=constant('URL')?>signup" class="btn dark-purple">Crear Cuenta</a>
+                        <a style="float: left; margin: 10px;" class="btn dark-purple" href="IniciarSesion.html">Iniciar Sesion</a>
+                        <a style="float: left; position: absolute; margin-top: 10px;" href="Registro.html" class="btn dark-purple">Crear Cuenta</a>
                     </div><!-- .buy-tickets -->
                 </div><!-- .col -->
             </div><!-- .row -->
@@ -66,7 +64,7 @@
 
     <div class="swiper-container hero-slider">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" data-date="2018/05/01" style="background: url(<?=constant('URL')?>plugins/images/header1.png) no-repeat">
+            <div class="swiper-slide" data-date="2018/05/01" style="background: url('images/header1.png') no-repeat">
                 <div class="hero-content">
                     <div class="container">
                         <div class="row">
@@ -85,7 +83,7 @@
                 </div><!-- .swiper-slide -->
             </div><!-- .swiper-wrapper -->
 
-            <div class="swiper-slide" data-date="2019/05/01" style="background: url(<?=constant('URL')?>plugins/images/header2.png) no-repeat">
+            <div class="swiper-slide" data-date="2019/05/01" style="background: url('images/header2.png') no-repeat">
                 <div class="hero-content">
                     <div class="container">
                         <div class="row">
@@ -104,7 +102,7 @@
                 </div><!-- .swiper-slide -->
             </div><!-- .swiper-wrapper -->
 
-            <div class="swiper-slide" data-date="2020/05/01" style="background: url(<?=constant('URL')?>plugins/images/header3.png) no-repeat">
+            <div class="swiper-slide" data-date="2020/05/01" style="background: url('images/header3.png') no-repeat">
                 <div class="hero-content">
                     <div class="container">
                         <div class="row">
@@ -143,7 +141,7 @@
         <div class="row">
             <div class="col-12 col-md-4 col-lg-5">
                 <figure>
-                    <img src="<?=constant('URL')?>plugins/images/logo 1.png" alt="logo">
+                    <img src="images/logo 1.png" alt="logo">
                 </figure>
             </div>
 
@@ -174,7 +172,7 @@
                 <div class="featured-events-wrap flex flex-wrap justify-content-between">
                     <div class="event-content-wrap positioning-event-1">
                         <figure>
-                            <a href="#"><img src="<?=constant('URL')?>plugins/images/P1.jpeg" alt="1" width="364px" height="402px"></a>
+                            <a href="#"><img src="images/P1.jpeg" alt="1" width="364px" height="402px"></a>
                         </figure>
 
                         <header class="entry-header">
@@ -184,7 +182,7 @@
 
                     <div class="event-content-wrap positioning-event-2">
                         <figure>
-                            <a href="#"><img src="<?=constant('URL')?>plugins/images/P2.jpeg" alt="" width="266px" height="298px"></a>
+                            <a href="#"><img src="images/P2.jpeg" alt="" width="266px" height="298px"></a>
                         </figure>
 
                         <header class="entry-header">
@@ -194,7 +192,7 @@
 
                     <div class="event-content-wrap positioning-event-3">
                         <figure>
-                            <a href="#"><img src="<?=constant('URL')?>plugins/images/P3.jpeg" alt="" width="260px" height="296px"></a>
+                            <a href="#"><img src="images/P3.jpeg" alt="" width="260px" height="296px"></a>
                         </figure>
 
                         <header class="entry-header">
@@ -204,25 +202,25 @@
 
                     <div class="event-content-wrap positioning-event-4 half">
                         <figure>
-                            <a href="#"><img src="<?=constant('URL')?>plugins/images/P10.jpg" alt="" width="164px" height="164px"></a>
+                            <a href="#"><img src="images/P10.jpg" alt="" width="164px" height="164px"></a>
                         </figure>
                     </div>
 
                     <div class="event-content-wrap positioning-event-5 half">
                         <figure>
-                            <a href="#"><img src="<?=constant('URL')?>plugins/images/P11.jpg" alt="" width="164px" height="164px"></a>
+                            <a href="#"><img src="images/P11.jpg" alt="" width="164px" height="164px"></a>
                         </figure>
                     </div>
 
                     <div class="event-content-wrap positioning-event-6 half">
                         <figure>
-                            <a href="#"><img src="<?=constant('URL')?>plugins/images/P12.jpg" alt="" width="167px" height="119px"></a>
+                            <a href="#"><img src="images/P12.jpg" alt="" width="167px" height="119px"></a>
                         </figure>
                     </div>
 
                     <div class="event-content-wrap positioning-event-7">
                         <figure>
-                            <a href="#"><img src="<?=constant('URL')?>plugins/images/P4.jpeg" alt="" width="263px" height="285px"></a>
+                            <a href="#"><img src="images/P4.jpeg" alt="" width="263px" height="285px"></a>
                         </figure>
 
                         <header class="entry-header">
@@ -232,7 +230,7 @@
 
                     <div class="event-content-wrap positioning-event-8">
                         <figure>
-                            <a href="#"><img src="<?=constant('URL')?>plugins/images/P5.jpeg" alt="1" width="364px" height="402px"></a>
+                            <a href="#"><img src="images/P5.jpeg" alt="1" width="364px" height="402px"></a>
                         </figure>
 
                         <header class="entry-header">
@@ -242,7 +240,7 @@
 
                     <div class="event-content-wrap positioning-event-9">
                         <figure>
-                            <a href="#"><img src="<?=constant('URL')?>plugins/images/P6.jpeg" alt="" width="263px" height="285px"></a>
+                            <a href="#"><img src="images/P6.jpeg" alt="" width="263px" height="285px"></a>
                         </figure>
 
                         <header class="entry-header">
@@ -268,7 +266,7 @@
             <div class="col-12 col-md-4">
                 <div class="next-event-wrap">
                     <figure>
-                        <a href="#"><img src="<?=constant('URL')?>plugins/images/HF.png" alt="1"></a>
+                        <a href="#"><img src="images/HF.png" alt="1"></a>
                         <div class="event-rating">1</div>
                     </figure>
 
@@ -283,7 +281,7 @@
             <div class="col-12 col-md-4">
                 <div class="next-event-wrap">
                     <figure>
-                        <a href="#"><img src="<?=constant('URL')?>plugins/images/PR2.jpeg" alt="1"></a>
+                        <a href="#"><img src="images/PR2.jpeg" alt="1"></a>
 
                         <div class="event-rating">2</div>
                     </figure>
@@ -299,7 +297,7 @@
             <div class="col-12 col-md-4">
                 <div class="next-event-wrap">
                     <figure>
-                        <a href="#"><img src="<?=constant('URL')?>plugins/images/PR3.jpeg" alt="1"></a>
+                        <a href="#"><img src="images/PR3.jpeg" alt="1"></a>
 
                         <div class="event-rating">3</div>
                     </figure>
@@ -315,7 +313,7 @@
             <div class="col-12 col-md-4">
                 <div class="next-event-wrap">
                     <figure>
-                        <a href="#"><img src="<?=constant('URL')?>plugins/images/JR.png" alt="1"></a>
+                        <a href="#"><img src="images/JR.png" alt="1"></a>
 
                         <div class="event-rating">4</div>
                     </figure>
@@ -339,7 +337,7 @@
         <div class="row">
             <div class="col-12">
                 <figure class="footer-logo">
-                    <a href="#"><img src="<?=constant('URL')?>plugins/images/logo 1.png" alt="logo"></a>
+                    <a href="#"><img src="images/logo 1.png" alt="logo"></a>
                 </figure>
 
                 <nav class="footer-navigation">
@@ -374,14 +372,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1395 1184q0 13-10 23l-50 50q-10 10-23 10t-23-10l-393-393-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
 </div>
 
-<script type='text/javascript' src='<?=constant('URL')?>plugins/js/jquery.js'></script>
-<script type='text/javascript' src='<?=constant('URL')?>plugins/js/masonry.pkgd.min.js'></script>
-<script type='text/javascript' src='<?=constant('URL')?>plugins/js/jquery.collapsible.min.js'></script>
-<script type='text/javascript' src='<?=constant('URL')?>plugins/js/swiper.min.js'></script>
-<script type='text/javascript' src='<?=constant('URL')?>plugins/js/jquery.countdown.min.js'></script>
-<script type='text/javascript' src='<?=constant('URL')?>plugins/js/circle-progress.min.js'></script>
-<script type='text/javascript' src='<?=constant('URL')?>plugins/js/jquery.countTo.min.js'></script>
-<script type='text/javascript' src='<?=constant('URL')?>plugins/js/custom.js'></script>
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+<script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+<script type='text/javascript' src='js/swiper.min.js'></script>
+<script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+<script type='text/javascript' src='js/circle-progress.min.js'></script>
+<script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+<script type='text/javascript' src='js/custom.js'></script>
 
 </body>
 </html>
