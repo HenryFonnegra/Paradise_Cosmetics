@@ -1,5 +1,3 @@
-
-<?php require_once 'core/view.php' ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,29 +6,29 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>One Page Wonder - Start Bootstrap Template</title>
-        <link rel="icon" type="image/x-icon" href="<?=constant('URL')?>plugins/assets/logo.jpeg" />
+        <link rel="icon" type="image/x-icon" href="assets/logo.jpeg" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="<?=constant('URL')?>plugins/css/styles2.css" rel="stylesheet" />
+        <link href="css/styles2.css" rel="stylesheet" />
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="<?=constant('URL')?>plugins/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
 
         <!-- FontAwesome CSS -->
-        <link rel="stylesheet" href="<?=constant('URL')?>plugins/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
 
         <!-- Swiper CSS -->
-        <link rel="stylesheet" href="<?=constant('URL')?>plugins/css/swiper.min.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
 
         <!-- Styles -->
-        <link rel="stylesheet" href="<?=constant('URL')?>plugins/style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -58,7 +56,7 @@
                         <div class="col-10 col-lg-2 order-lg-1">
                             <div class="site-branding">
                                 <div class="site-title">
-                                    <a href="#"><img src="<?=constant('URL')?>plugins/images/logo 1.png" alt="logo"></a>
+                                    <a href="#"><img src="images/logo 1.png" alt="logo"></a>
                                 </div><!-- .site-title -->
                             </div><!-- .site-branding -->
                         </div><!-- .col -->
@@ -102,7 +100,7 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="<?=constant('URL')?>plugins/images/au1.png" alt="..." /></div>
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="images/au1.png" alt="..." /></div>
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-3">
@@ -120,7 +118,7 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="<?=constant('URL')?>plugins/images/correo.png" alt="..." /></div>
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="images/correo.png" alt="..." /></div>
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
@@ -140,7 +138,7 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="<?=constant('URL')?>plugins/images/corr.png" alt="..." /></div>
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="images/corr.png" alt="..." /></div>
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-3">
@@ -159,6 +157,6 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="<?=constant('URL')?>plugins/js/scripts.js"></script>
+        <script src="js/scripts.js"></script>
     </body>
 </html>

@@ -49,7 +49,7 @@
                             <li><a href="#">Sobre Nosotros</a></li>
                             <li><a href="#">Eventos</a></li>
                             <li><a href="#">Noticias</a></li>
-                            <li><a href="Contacto.html">Contacto</a></li>
+                            <li><a href="<?=constant('URL')?>contact">Contacto</a></li>
                         </ul>
                     </nav><!-- .site-navigation -->
                 </div><!-- .col -->
@@ -158,7 +158,7 @@
 
                 <footer class="entry-footer">
                     <a href="#" style="padding-right: 50px; border-color: black; color: black;" class="btn">Leer mas</a>
-                    <a href="Registro.html" class="btn dark">Regístrate ahora</a>
+                    <a href="<?=constant('URL')?>signup" class="btn dark">Regístrate ahora</a>
                 </footer>
             </div>
         </div>
