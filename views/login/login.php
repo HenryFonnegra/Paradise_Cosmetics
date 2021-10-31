@@ -47,9 +47,9 @@
                             <img src="<?=constant('URL')?>/plugins/images/logo 1.png" alt="logo" width="200px" style="align-items: center; top: 0px;">   
                         </div><!-- .site-title -->
 
-					<div style="font-family: Arial;" class="wrap-input100 validate-input" data-validate="Correo Electronico requerido">
-						<span class="label-input100">Correo Electronico</span>
-						<input class="input100" name="username" id="username" type="text" value="" placeholder="User Name" required="">
+					<div style="font-family: Arial;" class="wrap-input100 validate-input" data-validate="Nombre de usuario requerido">
+						<span class="label-input100">Nombre de usuario</span>
+						<input class="input100" name="username" id="username" type="text" value="" placeholder="User Name">
 						<span class="focus-input100"></span>
 					</div>
 
