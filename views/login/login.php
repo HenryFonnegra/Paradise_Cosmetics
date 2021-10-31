@@ -49,13 +49,13 @@
 
 					<div style="font-family: Arial;" class="wrap-input100 validate-input" data-validate="Correo Electronico requerido">
 						<span class="label-input100">Correo Electronico</span>
-						<input class="input100" type="text" name="username" placeholder="Correo Electronico...">
+						<input class="input100" name="username" id="username" type="text" value="" placeholder="User Name" required="">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Contraseña requerida">
 						<span class="label-input100">Contraseña</span>
-						<input class="input100" type="text" name="password" placeholder="*************">
+						<input class="input100" name="password" id="password" type="Password" placeholder="Password">
 						<span class="focus-input100"></span>
 					</div>
 
