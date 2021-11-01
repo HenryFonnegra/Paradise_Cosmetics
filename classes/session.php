@@ -124,7 +124,7 @@
             error_log("Session->redirectByRol : Redirigiendo al usuario por su rol");
             switch ($rol) {
                 case 'user':
-                    header('Location: '.constant('URL').'dashboard');
+                    header('Location: '.constant('URL').'dashboard/getProducts?page=1');
                     break;
 
                 case 'admin':

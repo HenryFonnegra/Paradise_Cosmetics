@@ -90,7 +90,7 @@ class ProductModel extends Model{
         }
 
     }
-
+ 
     public function getAll()
     {
 

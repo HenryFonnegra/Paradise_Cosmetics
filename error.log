@@ -1,0 +1,423 @@
+[01-Nov-2021 15:57:30 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:57:30 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:57:30 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:57:30 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:57:30 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:57:30 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:57:30 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:57:30 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:57:30 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:57:30 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:57:30 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:57:30 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:57:30 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:57:30 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:57:30 Europe/Berlin] App-> __construct : Cargando el método logOut.
+[01-Nov-2021 15:57:30 Europe/Berlin] PHP Warning:  Undefined property: Dashboard::$session in C:\xampp\htdocs\public_html\Paradise_Cosmetics\controllers\dashboard.php on line 16
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Cargando el método getProducts.
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:58:59 Europe/Berlin] ProductModel : getAll-> Obteniendo los datos desde la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] ProductModel->getAll : Se ha realizado la consulta a la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] ProductModel : getByRange ->Se obtuvieron con éxito los productos
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> render : Vista views/dashboard/index.php cargada correctamente.
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina no existe
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : No se encontró el controlador img
+[01-Nov-2021 15:58:59 Europe/Berlin] ErrorPage-> __construct : Inicio del controlador ErrorPage
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : No se pudo cargar el modelo Model
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> render : Vista views/error404/index.php cargada correctamente.
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:58:59 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:58:59 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:58:59 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:58:59 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina no existe
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : No se encontró el controlador plugins
+[01-Nov-2021 15:58:59 Europe/Berlin] ErrorPage-> __construct : Inicio del controlador ErrorPage
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : No se pudo cargar el modelo Model
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> render : Vista views/error404/index.php cargada correctamente.
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:58:59 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:58:59 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:58:59 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:58:59 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:58:59 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:58:59 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:58:59 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:58:59 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:59:01 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Cargando el método getProducts.
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:59:01 Europe/Berlin] ProductModel : getAll-> Obteniendo los datos desde la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] ProductModel->getAll : Se ha realizado la consulta a la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] ProductModel : getByRange ->Se obtuvieron con éxito los productos
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:59:01 Europe/Berlin] View-> render : Vista views/dashboard/index.php cargada correctamente.
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:59:01 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:59:01 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:59:01 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:59:01 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina no existe
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : No se encontró el controlador img
+[01-Nov-2021 15:59:01 Europe/Berlin] ErrorPage-> __construct : Inicio del controlador ErrorPage
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:59:01 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> loadModel : No se pudo cargar el modelo Model
+[01-Nov-2021 15:59:01 Europe/Berlin] View-> render : Vista views/error404/index.php cargada correctamente.
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:59:01 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:59:01 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:59:01 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:59:01 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:59:01 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:59:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[01-Nov-2021 15:59:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:01 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:59:01 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:59:05 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:05 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[01-Nov-2021 15:59:05 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[01-Nov-2021 15:59:05 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:59:05 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:05 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:05 Europe/Berlin] App-> __construct : Cargando el método logOut.
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->closeSession : Session cerrada
+[01-Nov-2021 15:59:05 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:05 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[01-Nov-2021 15:59:05 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 210
+[01-Nov-2021 15:59:05 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:59:05 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\core\app.php on line 14
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:05 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[01-Nov-2021 15:59:05 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->verifySession : La pagina  existe
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:59:05 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[01-Nov-2021 15:59:05 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[01-Nov-2021 15:59:05 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:59:05 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:59:05 Europe/Berlin] View-> handleMessage : Se está procesando el mensaje
+[01-Nov-2021 15:59:05 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[01-Nov-2021 15:59:06 Europe/Berlin] App-> __construct : Se inicio la app.
+[01-Nov-2021 15:59:06 Europe/Berlin] Session->__construct : Sesión iniciada 
+[01-Nov-2021 15:59:06 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[01-Nov-2021 15:59:06 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:06 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[01-Nov-2021 15:59:06 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[01-Nov-2021 15:59:06 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[01-Nov-2021 15:59:06 Europe/Berlin] Session->verifySession : La pagina login existe
+[01-Nov-2021 15:59:06 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[01-Nov-2021 15:59:06 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[01-Nov-2021 15:59:06 Europe/Berlin] App-> __construct : Se encontró el controlador login y se está cargando.
+[01-Nov-2021 15:59:06 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[01-Nov-2021 15:59:06 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[01-Nov-2021 15:59:06 Europe/Berlin] App-> __construct : No se encontró el método  en login.
+[01-Nov-2021 15:59:06 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[01-Nov-2021 15:59:06 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo loginModel
+[01-Nov-2021 15:59:06 Europe/Berlin] View-> render : Vista views/login/login.php cargada correctamente.
