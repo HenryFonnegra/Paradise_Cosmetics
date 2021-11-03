@@ -41,7 +41,7 @@
 				<!-- row -->
 				<div class="row">
 					<!-- LOGO -->
-					<div class="col-md-3">
+					<div class="col-md-2">
 						<div class="header-logo">
 							<a href="#" class="logo">
 								<img src="<?= constant('URL') ?>plugins/img/logo4.png" alt="" style="width: 150px; height: 100px;">
@@ -62,7 +62,7 @@
 					<!-- /SEARCH BAR -->
 
 					<!-- ACCOUNT -->
-					<div class="col-md-4 clearfix">
+					<div class="col-md-5 clearfix">
 						<div class="header-ctn">
 							<!-- Wishlist -->
 							<div>
@@ -262,7 +262,7 @@
 				<!-- section title -->
 				<div class="col-md-12">
 					<div class="section-title">
-						<h3 class="title">Mas vendidos</h3>
+						<h3 class="title">Nuevos productos</h3>
 					</div>
 				</div>
 				<!-- /section title -->
@@ -274,144 +274,54 @@
 							<!-- tab -->
 							<div id="tab1" class="tab-pane active">
 								<div class="products-slick" data-nav="#slick-nav-1">
-									<!-- product -->
-									<div class="product">
-										<div class="product-img">
-											<img src="<?= constant('URL') ?>plugins/img/product01.png" alt="">
-											<div class="product-label">
-												<span class="sale">-30%</span>
-												<span class="new">NEW</span>
-											</div>
-										</div>
-										<div class="product-body">
-											<p class="product-category">Category</p>
-											<h3 class="product-name"><a href="#">product name goes here</a></h3>
-											<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-											<div class="product-rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-											</div>
+									<?php
 
-										</div>
-										<div class="add-to-cart">
-											<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
-										</div>
-									</div>
-									<!-- /product -->
+									for ($i = 0; $i < count($this->data['products']); $i++) {
+										echo $this->data['products'][$i];
+									}
 
-									<!-- product -->
-									<div class="product">
-										<div class="product-img">
-											<img src="./img/product02.png" alt="">
-											<div class="product-label">
-												<span class="new">NEW</span>
-											</div>
-										</div>
-										<div class="product-body">
-											<p class="product-category">Category</p>
-											<h3 class="product-name"><a href="#">product name goes here</a></h3>
-											<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-											<div class="product-rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star-o"></i>
-											</div>
-
-										</div>
-										<div class="add-to-cart">
-											<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
-										</div>
-									</div>
-									<!-- /product -->
-
-									<!-- product -->
-									<div class="product">
-										<div class="product-img">
-											<img src="./img/product03.png" alt="">
-											<div class="product-label">
-												<span class="sale">-30%</span>
-											</div>
-										</div>
-										<div class="product-body">
-											<p class="product-category">Category</p>
-											<h3 class="product-name"><a href="#">product name goes here</a></h3>
-											<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-											<div class="product-rating">
-											</div>
-
-										</div>
-										<div class="add-to-cart">
-											<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
-										</div>
-									</div>
-									<!-- /product -->
-
-									<!-- product -->
-									<div class="product">
-										<div class="product-img">
-											<img src="./img/product04.png" alt="">
-										</div>
-										<div class="product-body">
-											<p class="product-category">Category</p>
-											<h3 class="product-name"><a href="#">product name goes here</a></h3>
-											<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-											<div class="product-rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-											</div>
-
-										</div>
-										<div class="add-to-cart">
-											<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
-										</div>
-									</div>
-									<!-- /product -->
-
-									<!-- product -->
-									<div class="product">
-										<div class="product-img">
-											<img src="./img/product05.png" alt="">
-										</div>
-										<div class="product-body">
-											<p class="product-category">Category</p>
-											<h3 class="product-name"><a href="#">product name goes here</a></h3>
-											<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
-											<div class="product-rating">
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-												<i class="fa fa-star"></i>
-											</div>
-
-										</div>
-										<div class="add-to-cart">
-											<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
-										</div>
-									</div>
-									<!-- /product -->
+									?>
 								</div>
-								<div id="slick-nav-1" class="products-slick-nav"></div>
+								<div id="slick-nav-1" class="products-slick-nav">
+									<nav aria-label="Page navigation example" class="w-100 mt-5 d-flex justify-content-center align-items-center">
+										<ul class="pagination">
+											<li class="page-item" id="anterior">
+												<a class="page-link" href="<?= constant('URL') ?>dashboard/getProducts?page=<?= $this->data['before'] ?>">Anterior</a>
+											</li>
+
+
+											<?php
+											for ($i = 1; $i <= $this->data['pagination']; $i++) {
+
+												echo
+												'<li class="page-item">
+                                					<a class="page-link" href="' . constant('URL') . 'dashboard/getProducts?page=' . $i . '">' . $i . '</a>
+                            					</li>';
+											}
+
+											?>
+
+											<li class="page-item" id="siguiente">
+												<a class="page-link" href="<?= constant('URL') ?>dashboard/getProducts?page=<?= $this->data['after'] ?>">Siguiente</a>
+											</li>
+										</ul>
+									</nav>
+
+								</div>
 							</div>
 							<!-- /tab -->
 						</div>
 					</div>
 				</div>
-				<!-- /Products tab & slick -->
+				<!-- Products tab & slick -->
 			</div>
 			<!-- /row -->
 		</div>
 		<!-- /container -->
 	</div>
 	<!-- /SECTION -->
+
+
 
 	<!-- FOOTER -->
 	<footer id="footer">
