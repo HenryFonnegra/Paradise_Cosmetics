@@ -1,3 +1,4 @@
+<?php require_once 'core/view.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,33 +11,37 @@
 <body class="px-4 py-4">
     <div class="card px-4 py-4">
         <h1 style="text-align: center;">Actualizar Datos</h1>
-    <form class="row g-3">
+    <form class="row g-3" action="<?=constant('URL')?>admin/updateInfo" method="POST" id="register">
         <div class="col-md-6">
           <label for="inputEmail4" class="form-label">Nombres</label>
-          <input type="email" class="form-control" id="inputEmail4" placeholder="Nombres...">
+          <input type="text" class="form-control" id="fname" name="fname" placeholder="Nombres..." value="<?php echo $this->data['current_user'][':first_name'];?>">
         </div>
         <div class="col-md-6">
           <label for="inputPassword4" class="form-label">Apeliidos</label>
-          <input type="password" class="form-control" id="inputPassword4" placeholder="Apeliidos...">
+          <input type="text" class="form-control" id="lname" name="lname" placeholder="Apeliidos..." value="<?php echo $this->data['current_user'][':last_name'];?>">
         </div>
         <div class="col-12">
           <label for="inputAddress" class="form-label">Correo Electronico</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="Correo Electronico...">
+          <input type="email" class="form-control" id="email" name="email" placeholder="Correo Electronico..." value="<?php echo $this->data['current_user'][':email'];?>">
         </div>
         <div class="col-12">
           <label for="inputAddress2" class="form-label">Numero de Telefono</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Numero de Telefono...">
+          <input type="text" class="form-control" id="phone" name="phone" placeholder="Numero de Telefono..." value="<?php echo $this->data['current_user'][':phone'];?>">
         </div>
         <div class="col-md-6">
           <label for="inputCity" class="form-label">Usuario</label>
-          <input type="text" class="form-control" id="inputCity" placeholder="Usuario...">
+          <input type="text" class="form-control" id="username" name="username" placeholder="Usuario..." value="<?php echo $this->data['current_user'][':username'];?>">
         </div>
         <div class="col-md-6">
           <label for="inputState" class="form-label">Contraseña</label>
-          <input type="text" class="form-control" id="inputCity" placeholder="Contraseña...">
+          <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña..." value="<?php echo $this->data['current_user'][':pass'];?>">
+        </div>
+        <div class="col-md-6">
+          <label for="inputState" class="form-label">Repetir Contraseña</label>
+          <input type="password" class="form-control" id="vpassword" name="vpassword" placeholder="Contraseña...">
         </div>
         <div class="col-12">
-            <button type="button" class="btn btn-secondary">Actualizar Datos</button>
+            <button type="submit" class="btn btn-secondary">Actualizar Datos</button>
         </div>
       </form>
 </div>

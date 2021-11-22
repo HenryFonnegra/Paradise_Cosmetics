@@ -78,7 +78,7 @@
                                 <span class="avatar avatar-online"><img src="<?= constant('URL') ?>views/sistema/resources/theme-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><i></i></span></a>
                             <div class="dropdown-menu dropdown-menu-right">
                                 <div class="arrow_box_right"><a class="dropdown-item" href="#"><span class="avatar avatar-online"><img src="<?= constant('URL') ?>views/sistema/resources/theme-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><span class="user-name text-bold-700 ml-1"> <?php echo $this->data[':first_name'].' '.$this->data[':last_name'];?></span></span></a>
-                                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="ft-user"></i> Edit Profile</a>
+                                    <div class="dropdown-divider"></div><a class="dropdown-item" href="<?=constant('URL')?>admin"><i class="ft-user"></i> Edit Profile</a>
                                     <div class="dropdown-divider"></div><a class="dropdown-item" href="<?= constant('URL') ?>sistema/logOut"><i class="ft-power"></i> Logout</a>
                                 </div>
                             </div>
