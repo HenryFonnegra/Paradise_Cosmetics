@@ -70,7 +70,7 @@ class ProductModel extends Model{
 
     
 
-    public function get($id)
+    public function get($id, $order='')
     {
 
         try {
@@ -117,7 +117,7 @@ class ProductModel extends Model{
         
     }
 
-    public function getByRange($page, $items_number)
+    public function getByRange($page, $items_number, $order='name')
     {
         try{
 
@@ -130,7 +130,7 @@ class ProductModel extends Model{
             }
             $start = $items_number;
 
-            $strquery = "SELECT code, name, description, price FROM producto LIMIT $start OFFSET $final";
+            $strquery = "SELECT code, name, description, price FROM producto ORDER BY $order LIMIT $start OFFSET $final";
 
             $statement = $this->database->query($strquery);
 

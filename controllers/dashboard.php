@@ -57,20 +57,21 @@
         {
             $this->loadModel();
             $formated_products = [];
-            $str_replaces = ['%img', '%name', '%description', '%price'];
+            $str_replaces = ['%img', '%name', '%description', '%price', '%code'];
             $html = 
             '<!-- product -->
                 <div class="product">
                     <div class="product-img d-flex justify-content-center">
-                        <img class="img-fluid rounded p-2" src="'.constant("URL").'%img" alt="%name" style="height: 18rem; width: auto;">
+                        <img class="img-fluid rounded p-1" src="'.constant("URL").'%img" alt="%name" style="height: 15rem; width: auto;">
                     </div>
                     <div class="product-body">
                         <h3 class="product-name"><a href="#">%name</a></h3>
                         <p class="product-category">%description</p>
                         <h4 class="product-price">$%price</h4>
+                        <a class="btn add-to-cart-btn pt-2" href="' .constant('URL'). 'dashboard/getProduct?id=%code"></i>Ver producto</a>
                     </div>
-                    <div class="add-to-cart">
-                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                    <div class="add-to-cart m-1">
+                        <a class="btn add-to-cart-btn pt-2" href="https://api.whatsapp.com/send/?phone=573145249244&text=Hola+quiero+informaci%C3%B3n+del+producto+&app_absent=0"><i class="fa fa-shopping-cart"></i>Más Info</a>
                     </div>
                 </div>
             <!-- /product -->';
@@ -79,27 +80,32 @@
             
             $pages = $this->setPagination($current_page);
             $this->vista->data+=['pagination'=>$pages];
+            $this->vista->data+=['current_page' => $current_page];
             
-            
-
-
             
 
             if(!empty($current_page) || $current_page!=null)
             {
-                $items = $this->model->getByRange($current_page, Dashboard::$ITEMS_PER_PAGE);
+                $order = ($_GET['order']!='')?$_GET['order']:'name';
+                $this->vista->data+=['order' => $order];
+                $items = $this->model->getByRange($current_page, Dashboard::$ITEMS_PER_PAGE, $order);
+
 
 
                 foreach($items as $item)
                 {
                     $aux = $html;
-                    $img = $this->getProductImage(array_shift($item));
+                    $code = array_shift($item);
+                    $img = $this->getProductImage($code);
 
                     $values = $item;
+            
 
                     array_unshift($values, $img);
 
+                    $aux = str_replace('%code', $code, $aux);
                     $aux = str_replace($str_replaces, $values, $aux);
+
                     array_push($formated_products, $aux);
 
                 }

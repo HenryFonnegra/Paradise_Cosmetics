@@ -125,7 +125,7 @@
 								</a>
 								<div class="cart-dropdown" style="border-radius: 15px;">
 									<ul>
-										<li><a class="dropdown-item" href="<?=constant('URL')?>user">Informacion personal</a></li>
+										<li><a class="dropdown-item" href="<?= constant('URL') ?>user">Informacion personal</a></li>
 										<li><a class="dropdown-item" href="#">Compras</a></li>
 									</ul>
 
@@ -190,11 +190,20 @@
 			<div class="row">
 
 				<!-- section title -->
-				<div class="col-md-12">
+				<div class="col-md-12 d-flex justify-content-between">
 					<div class="section-title">
 						<h3 class="title">Nuevos productos</h3>
 					</div>
+
+					<div class="row">
+						<ul>
+							<li><a class="dropdown-item" href="<?= constant('URL') ?>dashboard/getProducts?page=1&order=name">Nombre</a></li>
+							<li><a class="dropdown-item" href="<?= constant('URL') ?>dashboard/getProducts?page=1&order=price">Precio</a></li>
+
+						</ul>
+					</div>
 				</div>
+				
 				<!-- /section title -->
 
 				<!-- Products tab & slick -->
@@ -216,7 +225,7 @@
 									<nav aria-label="Page navigation example" class="w-100 mt-5 d-flex justify-content-center align-items-center">
 										<ul class="pagination">
 											<li class="page-item" id="anterior">
-												<a class="page-link" href="<?= constant('URL') ?>dashboard/getProducts?page=<?= $this->data['before'] ?>">Anterior</a>
+												<a class="page-link" href="<?= constant('URL') ?>dashboard/getProducts?page=<?= $this->data['before'] ?>&order=<?= $this->data['order'] ?>">Anterior</a>
 											</li>
 
 
@@ -225,14 +234,14 @@
 
 												echo
 												'<li class="page-item">
-                                					<a class="page-link" href="' . constant('URL') . 'dashboard/getProducts?page=' . $i . '">' . $i . '</a>
+                                					<a class="page-link" href="' . constant('URL') . 'dashboard/getProducts?page=' . $i . '&order=' . $this->data['order'] . '">' . $i . '</a>
                             					</li>';
 											}
 
 											?>
 
 											<li class="page-item" id="siguiente">
-												<a class="page-link" href="<?= constant('URL') ?>dashboard/getProducts?page=<?= $this->data['after'] ?>">Siguiente</a>
+												<a class="page-link" href="<?= constant('URL') ?>dashboard/getProducts?page=<?= $this->data['after'] ?>&order=<?= $this->data['order'] ?>">Siguiente</a>
 											</li>
 										</ul>
 									</nav>
