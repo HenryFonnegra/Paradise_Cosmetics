@@ -125,8 +125,7 @@
 								</a>
 								<div class="cart-dropdown" style="border-radius: 15px;">
 									<ul>
-										<li><a class="dropdown-item" href="#">Informacion de la cuenta</a></li>
-										<li><a class="dropdown-item" href="#">Informacion personal</a></li>
+										<li><a class="dropdown-item" href="<?=constant('URL')?>user">Informacion personal</a></li>
 										<li><a class="dropdown-item" href="#">Compras</a></li>
 									</ul>
 

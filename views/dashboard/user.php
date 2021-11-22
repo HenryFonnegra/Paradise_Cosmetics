@@ -1,107 +1,167 @@
-<?php require_once 'views/header.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Actualizar Datos</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="<?=constant('URL')?>plugins/css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="<?=constant('URL')?>plugins/css/font-awesome.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="<?=constant('URL')?>plugins/css/swiper.min.css">
+
+    <!--===============================================================================================-->	
+	    <!--<link rel="icon" type="image/png" href="images/icons/favicon.ico"/> -->
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="<?=constant('URL')?>plugins/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="<?=constant('URL')?>plugins/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="<?=constant('URL')?>plugins/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="<?=constant('URL')?>plugins/fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="<?=constant('URL')?>plugins/vendor/animate/animate.css">
+    <!--===============================================================================================-->	
+        <link rel="stylesheet" type="text/css" href="<?=constant('URL')?>plugins/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="<?=constant('URL')?>plugins/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="<?=constant('URL')?>plugins/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->	
+        <link rel="stylesheet" type="text/css" href="<?=constant('URL')?>plugins/vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="<?=constant('URL')?>plugins/css/util.css">
+        <link rel="stylesheet" type="text/css" href="<?=constant('URL')?>plugins/css/main.css">
+    <!--===============================================================================================-->
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+<header class="site-header">
+
+    <div class="page-header contact-page-header2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Actualizar Datos</h1>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </div>
+</header><!-- .site-header -->
 
 <div class="container">
-    <!--navbar-->
-    <div class="row  alert alert-success d-flex justify-content-center">
-        <div class="col-10 w-100 text-center"><h3>Bienvenido a nuestra tienda <?php echo $this->data['current_user'][':first_name'].' '.$this->data['current_user'][':last_name']?></h3></div>
-        <p>
-            Aquí encontrará sus datos personales y podrá actualizarlos siempre que usted quiera :)
-        </p>
+    
+    <div class="container-login100">
+            <form class="login100-form validate-form" action="<?=constant('URL')?>user/updateInfo" method="POST" id="register">
+                    <div class="site-title" style="margin-left: auto; margin-right: auto;">
+                        <img src="images/logo 1.png" alt="logo" width="200px" style="align-items: center; top: 0px;">   
+                    </div><!-- .site-title -->
+                    <br>
+                    <br>
+                    <br>
+
+                <div class="wrap-input100 validate-input" data-validate="Nombres requeridos">
+                    <span class="label-input100">Nombres</span>
+                    <input class="input100" type="text" name="fname" placeholder="Nombres...">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Apellidos requeridos">
+                    <span class="label-input100">Apellidos</span>
+                    <input class="input100" type="text" name="lname" placeholder="Apellidos...">
+                    <span class="focus-input100"></span>
+                </div>
+                <div class="wrap-input100 validate-input" data-validate="Apellidos requeridos">
+                    <span class="label-input100">Username</span>
+                    <input class="input100" type="text" name="username" placeholder="Username...">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Correo Electronico requerido">
+                    <span class="label-input100">Correo Electronico</span>
+                    <input class="input100" type="text" name="email" placeholder="Correo Electronico...">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Numero de telefono requerido">
+                    <span class="label-input100">Numero de telefono</span>
+                    <input class="input100" type="text" name="phone" placeholder="Numero de telefono...">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate = "Usuario requerido">
+                    <span class="label-input100">Usuario</span>
+                    <input class="input100" type="text" name="password" placeholder="Usuario...">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate = "Contraseña requerida">
+                    <span class="label-input100">Contraseña</span>
+                    <input class="input100" type="text" name="vpassword" placeholder="*************">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="buy-tickets" style="margin-left: auto; margin-right: auto;" >
+                    <a style="border-color: black; text-align: center;" href="#" class="btn dark-purple">Guardar cambios</a>
+                    <br>
+                    <br>
+                    <br>
+                </div><!-- .buy-tickets -->
+            </form>
     </div>
-    
-    <style>
-        
-        .content-input-field input
-        {
-            background-color: #ffffff !important;
-            border-width: 1px;
-            border-style: solid;
-            border-radius: 10px;
-            border-color:#000000 !important;
-            
-        }
-        
-        
-    </style>
-
-
-    
-    
-
-    <div class="container" style="background-color: #00cccc !important;">
-        
-        <div class="row pt-5 d-flex justify-content-center align-items-center">
-            <span class="text-center w-100 text-black" style="font-size: 2rem;">Información Personal</span>
-        </div>
-        
-        
-    <div class="row d-flex justify-content-center bg-ligth" style="background-color: #00cccc !important;">
-        <form action="<?=constant('URL')?>user/updateInfo" method="POST" id="register" class="my-5">
-                        <div class="field-group">
-                            <div class="row form-group">
-                                <div class="col-6">
-                                    <div class="content-input-field">
-                                        <input name="fname" id="name" type="text" value="<?php echo $this->data['current_user'][':first_name'];?>" placeholder="First Name" required="">
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="content-input-field">
-                                        <input name="lname" id="surname" type="text" value="<?php echo $this->data['current_user'][':last_name'];?>" placeholder="Last Name" required="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content-input-field">
-                                <input name="username" id="username" type="text" value="<?php echo $this->data['current_user'][':username'];?>" placeholder="Username" required="">
-                            </div>
-                        </div>
-                        <div class="field-group">
-
-                            <div class="content-input-field">
-                                <input name="email" id="email" type="email" value="<?php echo $this->data['current_user'][':email'];?>" placeholder="User Email" required="">
-                            </div>
-                        </div>
-                        <div class="field-group">
-
-                            <div class="content-input-field">
-                                <input name="phone" id="phone" type="text" value="<?php echo $this->data['current_user'][':phone'];?>" placeholder="UserPhone" required="">
-                            </div>
-                        </div>
-                        <div class="field-group">
-                            <div class="content-input-field">
-                                <label for="password">Contraseña: </label>
-                                <input name="password" id="password" type="Password" value="<?php echo $this->data['current_user'][':pass'];?>" placeholder="Password" required>
-                            </div>
-                            
-                        </div>
-                        <div class="field-group">
-                            <div class="content-input-field">
-                                <label for="vpassword">Comprobar contraseña: </label>
-                                <input name="vpassword" id="password2" type="Password" value="<?php echo $this->data['current_user'][':pass'];?>" placeholder="Password" required>
-                                
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="p1">Ver contraseñas</label>
-                            <input class="m-3" type="checkbox" onclick="myFunction()" id="p1">
-                        </div>
-                        <div class="content-input-field">
-                            <button type="submit" class="btn">Guardar Cambios</button>
-                        </div>
-                        <div class="list-login-bottom text-center mt-lg-5 mt-4">
-
-                            <a href="#" class="">Al hacer clic en Registrarse, acepto sus términos.</a>
-                        </div>
-                    </form>
-                    
-    
-    </div>
-    </div>
-
-    
-
-
 </div>
 
-<script src="<?=constant('URL')?>/views/dashboard/password.js"></script>
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <figure class="footer-logo">
+                    <a href="#"><img src="images/logo 2p.png" alt="logo"></a>
+                </figure>
 
-<?php require_once 'views/footer.php'; ?>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+                <div class="footer-social">
+                    <ul class="flex flex-wrap justify-content-center align-items-center">
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<div class="back-to-top flex justify-content-center align-items-center">
+    <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1395 1184q0 13-10 23l-50 50q-10 10-23 10t-23-10l-393-393-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
+</div>
+
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+<script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+<script type='text/javascript' src='js/swiper.min.js'></script>
+<script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+<script type='text/javascript' src='js/circle-progress.min.js'></script>
+<script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+<script type='text/javascript' src='js/custom.js'></script>
+
+</body>
+</html>

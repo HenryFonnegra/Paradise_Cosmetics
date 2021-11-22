@@ -35,7 +35,7 @@
             $phone = $_POST['phone'];
             $pass = $_POST['password'];
             $check_pass = $_POST['vpassword'];
-            $rol = $_POST['rol'];
+            $rol = 'user';
 
 
             if(empty($fname) || empty($lname) || empty($username) || empty($email) || empty($phone) || empty($pass) || empty($check_pass))
