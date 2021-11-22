@@ -35,6 +35,12 @@
             session_destroy();
         }
 
+        public function assignParamSession($param, $value)
+        {
+            error_log("Session->assignParamSession : Parámetro asignado");
+            $_SESSION[$param] = $value;
+        }
+
         
 
         public function initialize(){
