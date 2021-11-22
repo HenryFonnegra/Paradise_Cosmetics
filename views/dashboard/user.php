@@ -1,3 +1,6 @@
+<?php require_once 'core/view.php' ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,47 +76,49 @@
 
                 <div class="wrap-input100 validate-input" data-validate="Nombres requeridos">
                     <span class="label-input100">Nombres</span>
-                    <input class="input100" type="text" name="fname" placeholder="Nombres...">
+                    <input class="input100" type="text" name="fname" id="fname" placeholder="Nombres..." value="<?php echo $this->data['current_user'][':first_name'];?>">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input" data-validate="Apellidos requeridos">
                     <span class="label-input100">Apellidos</span>
-                    <input class="input100" type="text" name="lname" placeholder="Apellidos...">
+                    <input class="input100" type="text" name="lname" id="lname" placeholder="Apellidos..." value="<?php echo $this->data['current_user'][':last_name'];?>">
                     <span class="focus-input100"></span>
                 </div>
                 <div class="wrap-input100 validate-input" data-validate="Apellidos requeridos">
                     <span class="label-input100">Username</span>
-                    <input class="input100" type="text" name="username" placeholder="Username...">
+                    <input class="input100" type="text" name="username" id="username" placeholder="Username..." value="<?php echo $this->data['current_user'][':username'];?>">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input" data-validate="Correo Electronico requerido">
                     <span class="label-input100">Correo Electronico</span>
-                    <input class="input100" type="text" name="email" placeholder="Correo Electronico...">
+                    <input class="input100" type="text" name="email" id="email" placeholder="Correo Electronico..." value="<?php echo $this->data['current_user'][':email'];?>">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input" data-validate="Numero de telefono requerido">
                     <span class="label-input100">Numero de telefono</span>
-                    <input class="input100" type="text" name="phone" placeholder="Numero de telefono...">
+                    <input class="input100" type="text" name="phone" id="phone" placeholder="Numero de telefono..." value="<?php echo $this->data['current_user'][':phone'];?>">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input" data-validate = "Usuario requerido">
-                    <span class="label-input100">Usuario</span>
-                    <input class="input100" type="text" name="password" placeholder="Usuario...">
+                    <span class="label-input100">Contraseña</span>
+                    <input class="input100" type="password" name="password" id="password" placeholder="Contraseña..." value="<?php echo $this->data['current_user'][':pass'];?>">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input" data-validate = "Contraseña requerida">
-                    <span class="label-input100">Contraseña</span>
-                    <input class="input100" type="text" name="vpassword" placeholder="*************">
+                    <span class="label-input100">Repite la contraseña</span>
+                    <input class="input100" type="password" name="vpassword" id="vpassword" placeholder="*************">
                     <span class="focus-input100"></span>
                 </div>
 
+                <input class="input100" type="hidden" name="rol" id="rol" value="user">
+
                 <div class="buy-tickets" style="margin-left: auto; margin-right: auto;" >
-                    <a style="border-color: black; text-align: center;" href="#" class="btn dark-purple">Guardar cambios</a>
+                    <button style="border-color: black; text-align: center;" class="btn dark-purple" type="submit">Guardar Cambios</button>
                     <br>
                     <br>
                     <br>
