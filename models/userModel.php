@@ -74,7 +74,25 @@
                 error_log("userModel->get: No se pudo obtener el usuario para: $id " . $e->getMessage());
                 return null;
             }
-        
+        }
+
+        public function getByEmail($email)
+        {
+            try {
+                $strquery = 'SELECT * FROM usuario WHERE email=:email';
+
+                $statement = $this->database->prepare($strquery);
+
+                $statement->execute([':email'=>$email]);
+
+                $user = $statement->fetch(PDO::FETCH_ASSOC);
+
+                return (!empty($user))?$user:null;
+                
+            } catch (PDOException $e) {
+                error_log("userModel->get: No se pudo obtener el usuario para: $email " . $e->getMessage());
+                return null;
+            }
         }
 
         public function getAll()

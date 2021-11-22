@@ -12,9 +12,9 @@
 
     </form>
 
-    <form action="<?=constant('URL')?>recover_password/sendCode" method="POST">
-        <label for="email">Ponga el código que le enviamos: </label>
-        <input type="email" name="email" id="email">
+    <form action="<?=constant('URL')?>recover_password/verifyCode" method="POST">
+        <label for="code">Ponga el código que le enviamos: </label>
+        <input type="text" name="code" id="code">
         <button type="submit">Verificar</button>
 
     </form>
