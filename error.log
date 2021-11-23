@@ -389,3 +389,1126 @@ Stack trace:
 [22-Nov-2021 20:12:31 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
 [22-Nov-2021 20:12:31 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
 [22-Nov-2021 20:12:31 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 218
+[22-Nov-2021 20:13:22 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:22 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\core\app.php on line 14
+[22-Nov-2021 20:13:22 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:22 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[22-Nov-2021 20:13:22 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:22 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:22 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:22 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:22 Europe/Berlin] Session->verifySession : La pagina  existe
+[22-Nov-2021 20:13:22 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:22 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[22-Nov-2021 20:13:22 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[22-Nov-2021 20:13:22 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:22 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:22 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[22-Nov-2021 20:13:24 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:24 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:24 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[22-Nov-2021 20:13:24 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:24 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:24 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:24 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:24 Europe/Berlin] Session->verifySession : La pagina login existe
+[22-Nov-2021 20:13:24 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:24 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[22-Nov-2021 20:13:24 Europe/Berlin] App-> __construct : Se encontró el controlador login y se está cargando.
+[22-Nov-2021 20:13:24 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:24 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:24 Europe/Berlin] App-> __construct : No se encontró el método  en login.
+[22-Nov-2021 20:13:24 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:24 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo loginModel
+[22-Nov-2021 20:13:24 Europe/Berlin] View-> render : Vista views/login/login.php cargada correctamente.
+[22-Nov-2021 20:13:25 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:25 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:25 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[22-Nov-2021 20:13:25 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:25 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:25 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:25 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:25 Europe/Berlin] Session->verifySession : La pagina no existe
+[22-Nov-2021 20:13:25 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[22-Nov-2021 20:13:25 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:25 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:25 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:25 Europe/Berlin] App-> __construct : No se encontró el método  en recover_password.
+[22-Nov-2021 20:13:25 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:25 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[22-Nov-2021 20:13:25 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[22-Nov-2021 20:13:30 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:30 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[22-Nov-2021 20:13:30 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->verifySession : La pagina login existe
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[22-Nov-2021 20:13:30 Europe/Berlin] App-> __construct : Se encontró el controlador login y se está cargando.
+[22-Nov-2021 20:13:30 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:30 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:30 Europe/Berlin] App-> __construct : No se encontró el método  en login.
+[22-Nov-2021 20:13:30 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:30 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo loginModel
+[22-Nov-2021 20:13:30 Europe/Berlin] View-> render : Vista views/login/login.php cargada correctamente.
+[22-Nov-2021 20:13:30 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:30 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\core\app.php on line 14
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:30 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[22-Nov-2021 20:13:30 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->verifySession : La pagina  existe
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:30 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[22-Nov-2021 20:13:30 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[22-Nov-2021 20:13:30 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:30 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:30 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[22-Nov-2021 20:13:31 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:31 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:31 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[22-Nov-2021 20:13:31 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:31 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:31 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:31 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:31 Europe/Berlin] Session->verifySession : La pagina login existe
+[22-Nov-2021 20:13:31 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:31 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[22-Nov-2021 20:13:31 Europe/Berlin] App-> __construct : Se encontró el controlador login y se está cargando.
+[22-Nov-2021 20:13:31 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:31 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:31 Europe/Berlin] App-> __construct : No se encontró el método  en login.
+[22-Nov-2021 20:13:31 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:31 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo loginModel
+[22-Nov-2021 20:13:31 Europe/Berlin] View-> render : Vista views/login/login.php cargada correctamente.
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:39 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->verifySession : La pagina login existe
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : Se encontró el controlador login y se está cargando.
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:39 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : Cargando el método verifyLogin.
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo loginModel
+[22-Nov-2021 20:13:39 Europe/Berlin] Login->verifyLogin : Login correcto, redireccionando a su página de inicio
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:39 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->setUserSession : Configurando el id del usuario en la sesion
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->redirectByRol : Redirigiendo al usuario por su rol
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo loginModel
+[22-Nov-2021 20:13:39 Europe/Berlin] View-> render : Vista views/login/login.php cargada correctamente.
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:39 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : Cargando el método getProducts.
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:39 Europe/Berlin] ProductModel : getAll-> Obteniendo los datos desde la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] ProductModel->getAll : Se ha realizado la consulta a la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] PHP Warning:  Undefined array key "order" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\controllers\dashboard.php on line 89
+[22-Nov-2021 20:13:39 Europe/Berlin] ProductModel : getByRange ->Se obtuvieron con éxito los productos
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:39 Europe/Berlin] View-> render : Vista views/dashboard/index.php cargada correctamente.
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->verifySession : La pagina no existe
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : No se encontró el controlador img
+[22-Nov-2021 20:13:39 Europe/Berlin] ErrorPage-> __construct : Inicio del controlador ErrorPage
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:39 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> loadModel : No se pudo cargar el modelo Model
+[22-Nov-2021 20:13:39 Europe/Berlin] View-> render : Vista views/error404/index.php cargada correctamente.
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:39 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:39 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 218
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:39 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:39 Europe/Berlin] Session->verifySession : La pagina no existe
+[22-Nov-2021 20:13:39 Europe/Berlin] App-> __construct : No se encontró el controlador plugins
+[22-Nov-2021 20:13:39 Europe/Berlin] ErrorPage-> __construct : Inicio del controlador ErrorPage
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:39 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:39 Europe/Berlin] Controller-> loadModel : No se pudo cargar el modelo Model
+[22-Nov-2021 20:13:39 Europe/Berlin] View-> render : Vista views/error404/index.php cargada correctamente.
+[22-Nov-2021 20:13:43 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:43 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[22-Nov-2021 20:13:43 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[22-Nov-2021 20:13:43 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:43 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:43 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:43 Europe/Berlin] App-> __construct : Cargando el método getProducts.
+[22-Nov-2021 20:13:43 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:43 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:43 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:43 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:43 Europe/Berlin] ProductModel : getAll-> Obteniendo los datos desde la base de datos
+[22-Nov-2021 20:13:43 Europe/Berlin] ProductModel->getAll : Se ha realizado la consulta a la base de datos
+[22-Nov-2021 20:13:43 Europe/Berlin] ProductModel : getByRange ->Se obtuvieron con éxito los productos
+[22-Nov-2021 20:13:43 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:43 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:43 Europe/Berlin] View-> render : Vista views/dashboard/index.php cargada correctamente.
+[22-Nov-2021 20:13:43 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:43 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[22-Nov-2021 20:13:43 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:43 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[22-Nov-2021 20:13:43 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:43 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:43 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:43 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[22-Nov-2021 20:13:43 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:43 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:43 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 218
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:43 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:43 Europe/Berlin] Session->verifySession : La pagina no existe
+[22-Nov-2021 20:13:43 Europe/Berlin] App-> __construct : No se encontró el controlador img
+[22-Nov-2021 20:13:43 Europe/Berlin] ErrorPage-> __construct : Inicio del controlador ErrorPage
+[22-Nov-2021 20:13:43 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:43 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:43 Europe/Berlin] Controller-> loadModel : No se pudo cargar el modelo Model
+[22-Nov-2021 20:13:43 Europe/Berlin] View-> render : Vista views/error404/index.php cargada correctamente.
+[22-Nov-2021 20:13:46 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:46 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[22-Nov-2021 20:13:46 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[22-Nov-2021 20:13:46 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:46 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:46 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:46 Europe/Berlin] App-> __construct : Cargando el método getProducts.
+[22-Nov-2021 20:13:46 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:46 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:46 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:46 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:46 Europe/Berlin] ProductModel : getAll-> Obteniendo los datos desde la base de datos
+[22-Nov-2021 20:13:46 Europe/Berlin] ProductModel->getAll : Se ha realizado la consulta a la base de datos
+[22-Nov-2021 20:13:46 Europe/Berlin] ProductModel : getByRange ->Se obtuvieron con éxito los productos
+[22-Nov-2021 20:13:46 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:46 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:46 Europe/Berlin] View-> render : Vista views/dashboard/index.php cargada correctamente.
+[22-Nov-2021 20:13:46 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:46 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:46 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[22-Nov-2021 20:13:46 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[22-Nov-2021 20:13:46 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:46 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:46 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:46 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[22-Nov-2021 20:13:46 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:46 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:46 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 218
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:46 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:46 Europe/Berlin] Session->verifySession : La pagina no existe
+[22-Nov-2021 20:13:46 Europe/Berlin] App-> __construct : No se encontró el controlador img
+[22-Nov-2021 20:13:46 Europe/Berlin] ErrorPage-> __construct : Inicio del controlador ErrorPage
+[22-Nov-2021 20:13:46 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:46 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:46 Europe/Berlin] Controller-> loadModel : No se pudo cargar el modelo Model
+[22-Nov-2021 20:13:46 Europe/Berlin] View-> render : Vista views/error404/index.php cargada correctamente.
+[22-Nov-2021 20:13:50 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:50 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[22-Nov-2021 20:13:50 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[22-Nov-2021 20:13:50 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:50 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:50 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:50 Europe/Berlin] App-> __construct : Cargando el método getProducts.
+[22-Nov-2021 20:13:50 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:50 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:50 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:50 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:50 Europe/Berlin] ProductModel : getAll-> Obteniendo los datos desde la base de datos
+[22-Nov-2021 20:13:50 Europe/Berlin] ProductModel->getAll : Se ha realizado la consulta a la base de datos
+[22-Nov-2021 20:13:50 Europe/Berlin] ProductModel : getByRange ->Se obtuvieron con éxito los productos
+[22-Nov-2021 20:13:50 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:50 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:50 Europe/Berlin] View-> render : Vista views/dashboard/index.php cargada correctamente.
+[22-Nov-2021 20:13:50 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:50 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:50 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->verifySession : La pagina no existe
+[22-Nov-2021 20:13:50 Europe/Berlin] App-> __construct : No se encontró el controlador img
+[22-Nov-2021 20:13:50 Europe/Berlin] ErrorPage-> __construct : Inicio del controlador ErrorPage
+[22-Nov-2021 20:13:50 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:50 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:50 Europe/Berlin] Controller-> loadModel : No se pudo cargar el modelo Model
+[22-Nov-2021 20:13:50 Europe/Berlin] View-> render : Vista views/error404/index.php cargada correctamente.
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:50 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[22-Nov-2021 20:13:50 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[22-Nov-2021 20:13:50 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:50 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:50 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:50 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:50 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[22-Nov-2021 20:13:50 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:50 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:50 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 218
+[22-Nov-2021 20:13:53 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[22-Nov-2021 20:13:53 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[22-Nov-2021 20:13:53 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:53 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:53 Europe/Berlin] App-> __construct : Cargando el método getProducts.
+[22-Nov-2021 20:13:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:53 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:53 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:53 Europe/Berlin] ProductModel : getAll-> Obteniendo los datos desde la base de datos
+[22-Nov-2021 20:13:53 Europe/Berlin] ProductModel->getAll : Se ha realizado la consulta a la base de datos
+[22-Nov-2021 20:13:53 Europe/Berlin] ProductModel : getByRange ->Se obtuvieron con éxito los productos
+[22-Nov-2021 20:13:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:53 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:53 Europe/Berlin] View-> render : Vista views/dashboard/index.php cargada correctamente.
+[22-Nov-2021 20:13:53 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:53 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[22-Nov-2021 20:13:53 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[22-Nov-2021 20:13:53 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:53 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:53 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[22-Nov-2021 20:13:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:53 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:13:53 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 218
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:13:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:13:53 Europe/Berlin] Session->verifySession : La pagina no existe
+[22-Nov-2021 20:13:53 Europe/Berlin] App-> __construct : No se encontró el controlador img
+[22-Nov-2021 20:13:53 Europe/Berlin] ErrorPage-> __construct : Inicio del controlador ErrorPage
+[22-Nov-2021 20:13:53 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:13:53 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:13:53 Europe/Berlin] Controller-> loadModel : No se pudo cargar el modelo Model
+[22-Nov-2021 20:13:53 Europe/Berlin] View-> render : Vista views/error404/index.php cargada correctamente.
+[22-Nov-2021 20:14:00 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:14:00 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[22-Nov-2021 20:14:00 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[22-Nov-2021 20:14:00 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:14:00 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:14:00 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:14:00 Europe/Berlin] App-> __construct : No se encontró el método getProduct en dashboard.
+[22-Nov-2021 20:14:00 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:14:00 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:14:00 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 218
+[22-Nov-2021 20:14:00 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:14:00 Europe/Berlin] App-> __construct : Se inicio la app.
+[22-Nov-2021 20:14:00 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->verifySession : La pagina dashboard existe
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->verifySession : La pagina dashboard es de acceso privado
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->verifySession : El usuario se encuentra logueado
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->verifyRol : Verificando el rol del usuario
+[22-Nov-2021 20:14:00 Europe/Berlin] App-> __construct : Se encontró el controlador dashboard y se está cargando.
+[22-Nov-2021 20:14:00 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:14:00 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:14:00 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:14:00 Europe/Berlin] App-> __construct : No se encontró el método img en dashboard.
+[22-Nov-2021 20:14:00 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:14:00 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo productModel
+[22-Nov-2021 20:14:00 Europe/Berlin] PHP Warning:  Undefined array key "products" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\views\dashboard\index.php on line 218
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->__construct : Sesión iniciada 
+[22-Nov-2021 20:14:00 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[22-Nov-2021 20:14:00 Europe/Berlin] Session->verifySession : La pagina no existe
+[22-Nov-2021 20:14:00 Europe/Berlin] App-> __construct : No se encontró el controlador img
+[22-Nov-2021 20:14:00 Europe/Berlin] ErrorPage-> __construct : Inicio del controlador ErrorPage
+[22-Nov-2021 20:14:00 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[22-Nov-2021 20:14:00 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[22-Nov-2021 20:14:00 Europe/Berlin] Controller-> loadModel : No se pudo cargar el modelo Model
+[22-Nov-2021 20:14:00 Europe/Berlin] View-> render : Vista views/error404/index.php cargada correctamente.
+[23-Nov-2021 19:16:54 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:16:54 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\core\app.php on line 14
+[23-Nov-2021 19:16:54 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:16:54 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:16:54 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:16:54 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:16:54 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:16:54 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:16:54 Europe/Berlin] Session->verifySession : La pagina  existe
+[23-Nov-2021 19:16:54 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[23-Nov-2021 19:16:54 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[23-Nov-2021 19:16:54 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[23-Nov-2021 19:16:54 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:16:54 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:16:54 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[23-Nov-2021 19:16:56 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:16:56 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:16:56 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:16:56 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:16:56 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:16:56 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:16:56 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:16:56 Europe/Berlin] Session->verifySession : La pagina login existe
+[23-Nov-2021 19:16:56 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[23-Nov-2021 19:16:56 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[23-Nov-2021 19:16:56 Europe/Berlin] App-> __construct : Se encontró el controlador login y se está cargando.
+[23-Nov-2021 19:16:56 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:16:56 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:16:56 Europe/Berlin] App-> __construct : No se encontró el método  en login.
+[23-Nov-2021 19:16:56 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:16:56 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo loginModel
+[23-Nov-2021 19:16:56 Europe/Berlin] View-> render : Vista views/login/login.php cargada correctamente.
+[23-Nov-2021 19:16:58 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:16:58 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:16:58 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:16:58 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:16:58 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:16:58 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:16:58 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:16:58 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:16:58 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:16:58 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:16:58 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:16:58 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:16:58 Europe/Berlin] App-> __construct : No se encontró el método  en recover_password.
+[23-Nov-2021 19:16:58 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:16:58 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:16:58 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:17:02 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:17:02 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:17:02 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:17:02 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:17:02 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:17:02 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:17:02 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:17:02 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:17:02 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:17:02 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:17:02 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:17:02 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:17:02 Europe/Berlin] App-> __construct : Cargando el método sendCode.
+[23-Nov-2021 19:17:02 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:17:02 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:17:02 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:17:02 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:17:02 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:17:04 Europe/Berlin] Recover_Password ->sendCode : Error al enviar el correo
+[23-Nov-2021 19:17:04 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:17:04 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:17:04 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:17:52 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:17:52 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:17:52 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:17:52 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:17:52 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:17:52 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:17:52 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:17:52 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:17:52 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:17:52 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:17:52 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:17:52 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:17:52 Europe/Berlin] App-> __construct : Cargando el método sendCode.
+[23-Nov-2021 19:17:52 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:17:52 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:17:52 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:17:52 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:17:52 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:17:53 Europe/Berlin] Recover_Password ->sendCode : Error al enviar el correo
+[23-Nov-2021 19:17:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:17:53 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:17:53 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:21:37 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:21:37 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:21:37 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:21:37 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:21:37 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:21:37 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:21:37 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:21:37 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:21:37 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:21:37 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:21:37 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:21:37 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:21:37 Europe/Berlin] App-> __construct : No se encontró el método  en recover_password.
+[23-Nov-2021 19:21:37 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:21:37 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:21:37 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:21:40 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:21:40 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:21:40 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:21:40 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:21:40 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:21:40 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:21:40 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:21:40 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:21:40 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:21:40 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:21:40 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:21:40 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:21:40 Europe/Berlin] App-> __construct : Cargando el método sendCode.
+[23-Nov-2021 19:21:40 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:21:40 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:21:40 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:21:40 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:21:40 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:21:41 Europe/Berlin] Recover_Password ->sendCode : Error al enviar el correo
+[23-Nov-2021 19:21:41 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:21:41 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:21:41 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:22:20 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:22:20 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:22:20 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:22:20 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:22:20 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:22:20 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:22:20 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:22:20 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:22:20 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:22:20 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:22:20 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:22:20 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:22:20 Europe/Berlin] App-> __construct : No se encontró el método  en recover_password.
+[23-Nov-2021 19:22:20 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:22:20 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:22:20 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:22:22 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:22:22 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:22:22 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:22:22 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:22:22 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:22:22 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:22:22 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:22:22 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:22:22 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:22:22 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:22:22 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:22:22 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:22:22 Europe/Berlin] App-> __construct : Cargando el método sendCode.
+[23-Nov-2021 19:22:22 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:22:22 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:22:22 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:22:22 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:22:22 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:22:43 Europe/Berlin] Recover_Password ->sendCode : Error al enviar el correo
+[23-Nov-2021 19:22:43 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:22:43 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:22:43 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:23:40 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:23:40 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:23:40 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:23:40 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:23:40 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:23:40 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:23:40 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:23:40 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:23:40 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:23:40 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:23:40 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:23:40 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:23:40 Europe/Berlin] App-> __construct : No se encontró el método  en recover_password.
+[23-Nov-2021 19:23:40 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:23:40 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:23:40 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:23:42 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:23:42 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:23:42 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:23:42 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:23:42 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:23:42 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:23:42 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:23:42 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:23:42 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:23:42 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:23:42 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:23:42 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:23:42 Europe/Berlin] App-> __construct : Cargando el método sendCode.
+[23-Nov-2021 19:23:42 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:23:42 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:23:42 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:23:42 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:23:42 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:24:04 Europe/Berlin] Recover_Password ->sendCode : Error al enviar el correo
+[23-Nov-2021 19:24:04 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:24:04 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:24:04 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:25:46 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:25:46 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:25:46 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:25:46 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:25:46 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:25:46 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:25:46 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:25:46 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:25:46 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:25:46 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:25:46 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:25:46 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:25:46 Europe/Berlin] App-> __construct : No se encontró el método  en recover_password.
+[23-Nov-2021 19:25:46 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:25:46 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:25:46 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:25:48 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:25:48 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:25:48 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:25:48 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:25:48 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:25:48 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:25:48 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:25:48 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:25:48 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:25:48 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:25:48 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:25:48 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:25:48 Europe/Berlin] App-> __construct : Cargando el método sendCode.
+[23-Nov-2021 19:25:48 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:25:48 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:25:48 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:25:48 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:25:48 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:25:48 Europe/Berlin] Recover_Password ->sendCode : Error al enviar el correo
+[23-Nov-2021 19:25:48 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:25:48 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:25:48 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:26:04 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:26:04 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:26:04 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:26:04 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:26:04 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:26:04 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:26:04 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:26:04 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:26:04 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:26:04 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:26:04 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:26:04 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:26:04 Europe/Berlin] App-> __construct : No se encontró el método  en recover_password.
+[23-Nov-2021 19:26:04 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:26:04 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:26:04 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:26:06 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:26:06 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:26:06 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:26:06 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:26:06 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:26:06 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:26:06 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:26:06 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:26:06 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:26:06 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:26:06 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:26:06 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:26:06 Europe/Berlin] App-> __construct : Cargando el método sendCode.
+[23-Nov-2021 19:26:06 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:26:06 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:26:06 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:26:06 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:26:06 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:26:07 Europe/Berlin] Recover_Password ->sendCode : Error al enviar el correo
+[23-Nov-2021 19:26:07 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:26:07 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:26:07 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:28:03 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:28:03 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:28:03 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:28:03 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:28:03 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:28:03 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:28:03 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:28:03 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:28:03 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:28:03 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:28:03 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:28:03 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:28:03 Europe/Berlin] App-> __construct : No se encontró el método  en recover_password.
+[23-Nov-2021 19:28:03 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:28:03 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:28:03 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:28:05 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:28:05 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:28:05 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:28:05 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:28:05 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:28:05 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:28:05 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:28:05 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:28:05 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:28:05 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:28:05 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:28:05 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:28:05 Europe/Berlin] App-> __construct : Cargando el método sendCode.
+[23-Nov-2021 19:28:05 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:28:05 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:28:05 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:28:05 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:28:05 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:28:06 Europe/Berlin] Recover_Password ->sendCode : Error al enviar el correo
+[23-Nov-2021 19:28:06 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:28:06 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:28:06 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:40:54 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:40:54 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:40:54 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:40:54 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:40:54 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:40:54 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:40:54 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:40:54 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:40:54 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:40:54 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:40:54 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:40:54 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:40:54 Europe/Berlin] App-> __construct : No se encontró el método  en recover_password.
+[23-Nov-2021 19:40:54 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:40:54 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:40:54 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:40:57 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:40:57 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:40:57 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:40:57 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:40:57 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:40:57 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:40:57 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:40:57 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:40:57 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:40:57 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:40:57 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:40:57 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:40:57 Europe/Berlin] App-> __construct : Cargando el método sendCode.
+[23-Nov-2021 19:40:57 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:40:57 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:40:57 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:40:57 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:40:57 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:41:00 Europe/Berlin] Recover_Password ->sendCode : 'Message has been sent'
+[23-Nov-2021 19:41:00 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:41:00 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:41:00 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:41:36 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:41:36 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:41:36 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:41:36 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:41:36 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:41:36 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:41:36 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:41:36 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:41:36 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:41:36 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:41:36 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:41:36 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:41:36 Europe/Berlin] App-> __construct : Cargando el método verifyCode.
+[23-Nov-2021 19:41:36 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:41:36 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:41:36 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:42:41 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:42:41 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:42:41 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:42:41 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:42:41 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:42:41 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:42:41 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:42:41 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:42:41 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:42:41 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:42:41 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:42:41 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:42:41 Europe/Berlin] App-> __construct : No se encontró el método  en recover_password.
+[23-Nov-2021 19:42:41 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:42:41 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:42:41 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:43:11 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:43:11 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:43:11 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:43:11 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:11 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:43:11 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:43:11 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:43:11 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:43:11 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:43:11 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:43:11 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:43:11 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:11 Europe/Berlin] App-> __construct : No se encontró el método  en recover_password.
+[23-Nov-2021 19:43:11 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:11 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:43:11 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:43:13 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:43:13 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:43:13 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:43:13 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:13 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:43:13 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:43:13 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:43:13 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:43:13 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:43:13 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:43:13 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:43:13 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:13 Europe/Berlin] App-> __construct : Cargando el método sendCode.
+[23-Nov-2021 19:43:13 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:43:13 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:43:13 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:13 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:43:13 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:43:15 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:15 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:43:15 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:43:36 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:43:36 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:43:36 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:43:36 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:36 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:43:36 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:43:36 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:43:36 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:43:36 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:43:36 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:43:36 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:43:36 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:36 Europe/Berlin] App-> __construct : Cargando el método verifyCode.
+[23-Nov-2021 19:43:36 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:36 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:43:36 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:43:36 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:43:36 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:43:36 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:43:36 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:36 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:43:36 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:43:36 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:43:36 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:43:36 Europe/Berlin] App-> __construct : Se encontró el controlador change_password y se está cargando.
+[23-Nov-2021 19:43:36 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:43:36 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:43:36 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:36 Europe/Berlin] App-> __construct : No se encontró el método  en change_password.
+[23-Nov-2021 19:43:36 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:36 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:43:36 Europe/Berlin] View-> render : Vista views/login/change_password.php cargada correctamente.
+[23-Nov-2021 19:43:48 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:43:48 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:43:48 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:43:48 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:48 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:43:48 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:43:48 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:43:48 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:43:48 Europe/Berlin] App-> __construct : Se encontró el controlador change_password y se está cargando.
+[23-Nov-2021 19:43:48 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:43:48 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:43:48 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:48 Europe/Berlin] App-> __construct : Cargando el método changePass.
+[23-Nov-2021 19:43:48 Europe/Berlin] UserModel->setScheme : Esquema de datos establecido
+[23-Nov-2021 19:43:48 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:48 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:43:48 Europe/Berlin] View-> render : Vista views/login/change_password.php cargada correctamente.
+[23-Nov-2021 19:43:48 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:43:48 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\core\app.php on line 14
+[23-Nov-2021 19:43:48 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:43:48 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:43:48 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:43:48 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:43:48 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:43:48 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:43:48 Europe/Berlin] Session->verifySession : La pagina  existe
+[23-Nov-2021 19:43:48 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[23-Nov-2021 19:43:48 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[23-Nov-2021 19:43:48 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[23-Nov-2021 19:43:48 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:43:48 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:43:48 Europe/Berlin] View-> handleMessage : Se está procesando el mensaje
+[23-Nov-2021 19:43:48 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
+[23-Nov-2021 19:44:52 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:44:52 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:44:52 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:44:52 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:44:52 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:44:52 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:44:52 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:44:52 Europe/Berlin] Session->verifySession : La pagina login existe
+[23-Nov-2021 19:44:52 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[23-Nov-2021 19:44:52 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[23-Nov-2021 19:44:52 Europe/Berlin] App-> __construct : Se encontró el controlador login y se está cargando.
+[23-Nov-2021 19:44:52 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:44:52 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:44:52 Europe/Berlin] App-> __construct : No se encontró el método  en login.
+[23-Nov-2021 19:44:52 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:44:52 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo loginModel
+[23-Nov-2021 19:44:52 Europe/Berlin] View-> render : Vista views/login/login.php cargada correctamente.
+[23-Nov-2021 19:44:53 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:44:53 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:44:53 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:44:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:44:53 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:44:53 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:44:53 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:44:53 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:44:53 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:44:53 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:44:53 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:44:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:44:53 Europe/Berlin] App-> __construct : No se encontró el método  en recover_password.
+[23-Nov-2021 19:44:53 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:44:53 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:44:53 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:44:55 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:44:55 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:44:55 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:44:55 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:44:55 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:44:55 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:44:55 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:44:55 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:44:55 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:44:55 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:44:55 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:44:55 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:44:55 Europe/Berlin] App-> __construct : Cargando el método sendCode.
+[23-Nov-2021 19:44:55 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:44:55 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:44:55 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:44:55 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:44:55 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:44:57 Europe/Berlin] Recover_Password ->sendCode : 'Message has been sent'
+[23-Nov-2021 19:44:57 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:44:57 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:44:57 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:46:01 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:46:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:46:01 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:46:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:01 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:46:01 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:46:01 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:46:01 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:46:01 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:46:01 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:46:01 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:46:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:01 Europe/Berlin] App-> __construct : Cargando el método sendCode.
+[23-Nov-2021 19:46:01 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:46:01 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:46:01 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:01 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:46:01 Europe/Berlin] Session->assignParamSession : Parámetro asignado
+[23-Nov-2021 19:46:05 Europe/Berlin] Recover_Password ->sendCode : 'Message has been sent'
+[23-Nov-2021 19:46:05 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:05 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:46:05 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:46:15 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:46:15 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:46:15 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:46:15 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:15 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:46:15 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:46:15 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:46:15 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:46:15 Europe/Berlin] App-> __construct : Se encontró el controlador recover_password y se está cargando.
+[23-Nov-2021 19:46:15 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:46:15 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:46:15 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:15 Europe/Berlin] App-> __construct : Cargando el método verifyCode.
+[23-Nov-2021 19:46:15 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:15 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:46:15 Europe/Berlin] View-> render : Vista views/login/recover_password.php cargada correctamente.
+[23-Nov-2021 19:46:15 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:46:15 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:46:15 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:46:15 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:15 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:46:15 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:46:15 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:46:15 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:46:15 Europe/Berlin] App-> __construct : Se encontró el controlador change_password y se está cargando.
+[23-Nov-2021 19:46:15 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:46:15 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:46:15 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:15 Europe/Berlin] App-> __construct : No se encontró el método  en change_password.
+[23-Nov-2021 19:46:15 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:15 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:46:15 Europe/Berlin] View-> render : Vista views/login/change_password.php cargada correctamente.
+[23-Nov-2021 19:46:21 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:46:21 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:46:21 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:46:21 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:21 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:46:21 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:46:21 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:46:21 Europe/Berlin] Session->verifySession : La pagina no existe
+[23-Nov-2021 19:46:21 Europe/Berlin] App-> __construct : Se encontró el controlador change_password y se está cargando.
+[23-Nov-2021 19:46:21 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:46:21 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:46:21 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:21 Europe/Berlin] App-> __construct : Cargando el método changePass.
+[23-Nov-2021 19:46:21 Europe/Berlin] UserModel->setScheme : Esquema de datos establecido
+[23-Nov-2021 19:46:21 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:21 Europe/Berlin] Controller-> loadModel : Se cargó correctamente el modelo userModel
+[23-Nov-2021 19:46:21 Europe/Berlin] View-> render : Vista views/login/change_password.php cargada correctamente.
+[23-Nov-2021 19:46:21 Europe/Berlin] App-> __construct : Se inicio la app.
+[23-Nov-2021 19:46:21 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\core\app.php on line 14
+[23-Nov-2021 19:46:21 Europe/Berlin] Session->__construct : Sesión iniciada 
+[23-Nov-2021 19:46:21 Europe/Berlin] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\public_html\Paradise_Cosmetics\classes\session.php on line 19
+[23-Nov-2021 19:46:21 Europe/Berlin] Database->__construct : Se ha establecido conexión con la base de datos
+[23-Nov-2021 19:46:21 Europe/Berlin] Session->initialize : Se inicio la sesion y las verificaciones
+[23-Nov-2021 19:46:21 Europe/Berlin] Session->getJsonPages : Obteniendo datos del archivo Json
+[23-Nov-2021 19:46:21 Europe/Berlin] Session->existsUrl : Verificando si existe la página
+[23-Nov-2021 19:46:21 Europe/Berlin] Session->verifySession : La pagina  existe
+[23-Nov-2021 19:46:21 Europe/Berlin] Session->isPublic : Verificando el acceso de la página
+[23-Nov-2021 19:46:21 Europe/Berlin] Session->verifySession : La pagina es de acceso público
+[23-Nov-2021 19:46:21 Europe/Berlin] App-> __construct : sin datos de url, cargando modelo por defecto.
+[23-Nov-2021 19:46:21 Europe/Berlin] Controller-> __construct : Inicio del controlador padre.
+[23-Nov-2021 19:46:21 Europe/Berlin] View-> __construct : Inicio de la clase vista
+[23-Nov-2021 19:46:21 Europe/Berlin] View-> handleMessage : Se está procesando el mensaje
+[23-Nov-2021 19:46:21 Europe/Berlin] View-> render : Vista views/index/index.php cargada correctamente.
