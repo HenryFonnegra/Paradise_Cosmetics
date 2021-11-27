@@ -68,7 +68,7 @@
     <div class="container-login100">
             <form class="login100-form validate-form" action="<?=constant('URL')?>user/updateInfo" method="POST" id="register">
                     <div class="site-title" style="margin-left: auto; margin-right: auto;">
-                        <img href="#" src="<?=constant('URL')?>plugins/images/logo 1.png" alt="logo" width="200px" style="align-items: center; top: 0px;">   
+                        <img href="localhost/public/dashboard" src="<?=constant('URL')?>plugins/images/logo 1.png" alt="logo" width="200px" style="align-items: center; top: 0px;">   
                     </div><!-- .site-title -->
                     <br>
                     <br>
