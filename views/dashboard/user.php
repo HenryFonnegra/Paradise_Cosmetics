@@ -132,7 +132,7 @@
         <div class="row">
             <div class="col-12">
                 <figure class="footer-logo">
-                    <a href="#"><img src="images/logo 2p.png" alt="logo"></a>
+                    <a href="#"><img src="<?=constant('URL')?>plugins/images/logo 2p.png" alt="logo"></a>
                 </figure>
 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
