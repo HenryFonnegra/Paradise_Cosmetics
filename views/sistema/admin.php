@@ -1,3 +1,4 @@
+<?php include_once 'header.php' ?>
 <?php require_once 'core/view.php' ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +10,7 @@
     <title>Document</title>
 </head>
 <body class="px-4 py-4">
-    <div class="card px-4 py-4">
+    <div class="card px-4 py-4" style="width: 40%; margin-left: 40%;">
         <h1 style="text-align: center;">Actualizar Datos</h1>
     <form class="row g-3" action="<?=constant('URL')?>admin/updateInfo" method="POST" id="register">
         <div class="col-md-6">
@@ -45,6 +46,7 @@
         </div>
       </form>
 </div>
+<?php include_once 'footer.php' ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
