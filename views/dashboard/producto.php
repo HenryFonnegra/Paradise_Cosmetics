@@ -1,9 +1,10 @@
+<?php require_once 'core/view.php' ?>
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 3 | E-commerce</title>
+  <title><?php echo $this->data['product']['name']; ?></title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -32,7 +33,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>E-commerce</h1>
+            <h1><?php echo $this->data['product']['name']; ?></h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -52,36 +53,29 @@
         <div class="card-body">
           <div class="row">
             <div class="col-12 col-sm-6">
-              <h3 class="d-inline-block d-sm-none">LOWA Men’s Renegade GTX Mid Hiking Boots Review</h3>
+              <h3 class="d-inline-block d-sm-none"><?php echo $this->data['product']['name']; ?></h3>
               <div class="col-12">
-                <img src="<?= constant('URL') ?>plugins/img/prod-1.jpg" class="product-image" alt="Product Image">
-              </div>
-              <div class="col-12 product-image-thumbs">
-                <div class="product-image-thumb active"><img src="<?= constant('URL') ?>plugins/img/prod-1.jpg" alt="Product Image"></div>
-                <div class="product-image-thumb" ><img src="<?= constant('URL') ?>plugins/img/prod-2.jpg" alt="Product Image"></div>
-                <div class="product-image-thumb" ><img src="<?= constant('URL') ?>plugins/img/prod-3.jpg" alt="Product Image"></div>
-                <div class="product-image-thumb" ><img src="<?= constant('URL') ?>plugins/img/prod-4.jpg" alt="Product Image"></div>
-                <div class="product-image-thumb" ><img src="<?= constant('URL') ?>plugins/img/prod-5.jpg" alt="Product Image"></div>
+                <img src="<?php echo constant('URL').''.$this->data['product']['img']; ?>" class="product-image p-5 " alt="Product Image">
               </div>
             </div>
             <div class="col-12 col-sm-6">
-              <h3 class="site-title">LOWA Men’s Renegade GTX Mid Hiking Boots Review</h3>
-              <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.</p>
+              <h3 class="site-title"><?php echo $this->data['product']['name']; ?></h3>
+              <p><?php echo $this->data['product']['description']; ?></p>
 
               <hr>
 
               <div class="py-2 px-3 mt-4" style="background-color: #00D6BF; -moz-border-radius: 7px; -webkit-border-radius: 7px; color: black;">
                 <h2 class="mb-0">
-                  $80.00
+                <?php echo $this->data['product']['price']; ?>
                 </h2>
                 <h4 class="mt-0">
-                  <small>Ex Tax: $80.00 </small>
+                  <small>Ex Tax: <?php echo $this->data['product']['price']; ?> </small>
                 </h4>
               </div>
 
               <div class="py-4">
                 <h4 class="site-title">Descripcion/Caracteristicas</h3>
-              <p class="site-title">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.</p>
+              <p class="site-title"><?php echo $this->data['product']['description']; ?></p>
               </div>
 
               <div class="site-title" align="center">

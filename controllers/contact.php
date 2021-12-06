@@ -6,7 +6,7 @@
         function __construct()
         {
             error_log("Contact-> __construct : Inicio del controlador Contact");
-            parent::__construct(Contact::$viewName, Contact::$modelName);
+            parent::__construct(Contact::$viewName, Contact::$modelName); 
         }
     }
 

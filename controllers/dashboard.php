@@ -19,6 +19,20 @@
             $this->redirect('', ['success' => 'UU789978YOB976SB']);
 
         }
+
+
+        public function getProduct()
+        {
+            $id = $_GET['id'];
+            if(isset($id))
+            {
+                $product = $this->model->get($id);
+                if(isset($product))
+                {
+                    $this->vista->data+= ['product'=> $product];
+                }
+            }
+        }
         
 
 
@@ -68,7 +82,7 @@
                         <h3 class="product-name"><a href="#">%name</a></h3>
                         <p class="product-category">%description</p>
                         <h4 class="product-price">$%price</h4>
-                        <a class="btn add-to-cart-btn pt-2" href="' .constant('URL'). 'dashboard/getProduct?id=%code"></i>Ver producto</a>
+                        <a class="btn add-to-cart-btn pt-2" href="' .constant('URL'). 'producto/getProduct?id=%code"></i>Ver producto</a>
                     </div>
                     <div class="add-to-cart m-1">
                         <a class="btn add-to-cart-btn pt-2" href="https://api.whatsapp.com/send/?phone=573145249244&text=Hola+quiero+informaci%C3%B3n+del+producto+&app_absent=0"><i class="fa fa-shopping-cart"></i>Más Info</a>
