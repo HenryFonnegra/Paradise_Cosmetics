@@ -196,11 +196,17 @@
 					</div>
 
 					<div class="row">
-						<ul>
-							<li><a class="dropdown-item" href="<?= constant('URL') ?>dashboard/getProducts?page=1&order=name">Nombre</a></li>
-							<li><a class="dropdown-item" href="<?= constant('URL') ?>dashboard/getProducts?page=1&order=price">Precio</a></li>
-
-						</ul>
+							<div class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+									<span>Filtro</span>
+								</a>
+								<div class="cart-dropdown" style="border-radius: 15px;">
+									<ul>
+										<li><a class="dropdown-item" href="<?= constant('URL') ?>dashboard/getProducts?page=1&order=name">Nombre</a></li>
+										<li><a class="dropdown-item" href="<?= constant('URL') ?>dashboard/getProducts?page=1&order=price">Precio</a></li>
+									</ul>
+								</div>
+							</div>
 					</div>
 				</div>
 				
