@@ -48,7 +48,7 @@
 
                             <ul>
                                 <li><a href="#">Inicio</a></li>
-                                <li><a href="<?= constant('URL') ?>Sobrenosotros">Sobre Nosotros</a></li>
+                                <li><a href="<?= constant('URL') ?>about">Sobre Nosotros</a></li>
                                 <li><a href="#">Eventos</a></li>
                                 <li><a href="#">Noticias</a></li>
                                 <li><a href="<?= constant('URL') ?>contact">Contacto</a></li>
